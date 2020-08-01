@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF9D622924D4FDCF00DD7111 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D622824D4FDCF00DD7111 /* AppDelegate.swift */; };
+		DF9D622B24D4FDCF00DD7111 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D622A24D4FDCF00DD7111 /* SceneDelegate.swift */; };
+		DF9D622D24D4FDCF00DD7111 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D622C24D4FDCF00DD7111 /* ContentView.swift */; };
+		DF9D622F24D4FDCF00DD7111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9D622E24D4FDCF00DD7111 /* Assets.xcassets */; };
+		DF9D623224D4FDCF00DD7111 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9D623124D4FDCF00DD7111 /* Preview Assets.xcassets */; };
+		DF9D623524D4FDCF00DD7111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9D623324D4FDCF00DD7111 /* LaunchScreen.storyboard */; };
+		DF9D624024D4FDD000DD7111 /* MetalHeatMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D623F24D4FDD000DD7111 /* MetalHeatMapTests.swift */; };
+		DF9D624B24D4FDD000DD7111 /* MetalHeatMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D624A24D4FDD000DD7111 /* MetalHeatMapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF9D623C24D4FDD000DD7111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF9D621D24D4FDCF00DD7111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF9D622424D4FDCF00DD7111;
+			remoteInfo = MetalHeatMap;
+		};
+		DF9D624724D4FDD000DD7111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF9D621D24D4FDCF00DD7111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF9D622424D4FDCF00DD7111;
+			remoteInfo = MetalHeatMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF9D622524D4FDCF00DD7111 /* MetalHeatMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalHeatMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9D622824D4FDCF00DD7111 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF9D622A24D4FDCF00DD7111 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF9D622C24D4FDCF00DD7111 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF9D622E24D4FDCF00DD7111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF9D623124D4FDCF00DD7111 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF9D623424D4FDCF00DD7111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF9D623624D4FDCF00DD7111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF9D623B24D4FDD000DD7111 /* MetalHeatMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalHeatMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9D623F24D4FDD000DD7111 /* MetalHeatMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalHeatMapTests.swift; sourceTree = "<group>"; };
+		DF9D624124D4FDD000DD7111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF9D624624D4FDD000DD7111 /* MetalHeatMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalHeatMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9D624A24D4FDD000DD7111 /* MetalHeatMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalHeatMapUITests.swift; sourceTree = "<group>"; };
+		DF9D624C24D4FDD000DD7111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF9D622224D4FDCF00DD7111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9D623824D4FDD000DD7111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9D624324D4FDD000DD7111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF9D621C24D4FDCF00DD7111 = {
+			isa = PBXGroup;
+			children = (
+				DF9D622724D4FDCF00DD7111 /* MetalHeatMap */,
+				DF9D623E24D4FDD000DD7111 /* MetalHeatMapTests */,
+				DF9D624924D4FDD000DD7111 /* MetalHeatMapUITests */,
+				DF9D622624D4FDCF00DD7111 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF9D622624D4FDCF00DD7111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D622524D4FDCF00DD7111 /* MetalHeatMap.app */,
+				DF9D623B24D4FDD000DD7111 /* MetalHeatMapTests.xctest */,
+				DF9D624624D4FDD000DD7111 /* MetalHeatMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF9D622724D4FDCF00DD7111 /* MetalHeatMap */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D622824D4FDCF00DD7111 /* AppDelegate.swift */,
+				DF9D622A24D4FDCF00DD7111 /* SceneDelegate.swift */,
+				DF9D622C24D4FDCF00DD7111 /* ContentView.swift */,
+				DF9D622E24D4FDCF00DD7111 /* Assets.xcassets */,
+				DF9D623324D4FDCF00DD7111 /* LaunchScreen.storyboard */,
+				DF9D623624D4FDCF00DD7111 /* Info.plist */,
+				DF9D623024D4FDCF00DD7111 /* Preview Content */,
+			);
+			path = MetalHeatMap;
+			sourceTree = "<group>";
+		};
+		DF9D623024D4FDCF00DD7111 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D623124D4FDCF00DD7111 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF9D623E24D4FDD000DD7111 /* MetalHeatMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D623F24D4FDD000DD7111 /* MetalHeatMapTests.swift */,
+				DF9D624124D4FDD000DD7111 /* Info.plist */,
+			);
+			path = MetalHeatMapTests;
+			sourceTree = "<group>";
+		};
+		DF9D624924D4FDD000DD7111 /* MetalHeatMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D624A24D4FDD000DD7111 /* MetalHeatMapUITests.swift */,
+				DF9D624C24D4FDD000DD7111 /* Info.plist */,
+			);
+			path = MetalHeatMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF9D622424D4FDCF00DD7111 /* MetalHeatMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF9D624F24D4FDD000DD7111 /* Build configuration list for PBXNativeTarget "MetalHeatMap" */;
+			buildPhases = (
+				DF9D622124D4FDCF00DD7111 /* Sources */,
+				DF9D622224D4FDCF00DD7111 /* Frameworks */,
+				DF9D622324D4FDCF00DD7111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalHeatMap;
+			productName = MetalHeatMap;
+			productReference = DF9D622524D4FDCF00DD7111 /* MetalHeatMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF9D623A24D4FDD000DD7111 /* MetalHeatMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF9D625224D4FDD000DD7111 /* Build configuration list for PBXNativeTarget "MetalHeatMapTests" */;
+			buildPhases = (
+				DF9D623724D4FDD000DD7111 /* Sources */,
+				DF9D623824D4FDD000DD7111 /* Frameworks */,
+				DF9D623924D4FDD000DD7111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF9D623D24D4FDD000DD7111 /* PBXTargetDependency */,
+			);
+			name = MetalHeatMapTests;
+			productName = MetalHeatMapTests;
+			productReference = DF9D623B24D4FDD000DD7111 /* MetalHeatMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF9D624524D4FDD000DD7111 /* MetalHeatMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF9D625524D4FDD000DD7111 /* Build configuration list for PBXNativeTarget "MetalHeatMapUITests" */;
+			buildPhases = (
+				DF9D624224D4FDD000DD7111 /* Sources */,
+				DF9D624324D4FDD000DD7111 /* Frameworks */,
+				DF9D624424D4FDD000DD7111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF9D624824D4FDD000DD7111 /* PBXTargetDependency */,
+			);
+			name = MetalHeatMapUITests;
+			productName = MetalHeatMapUITests;
+			productReference = DF9D624624D4FDD000DD7111 /* MetalHeatMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF9D621D24D4FDCF00DD7111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Douglas Webster";
+				TargetAttributes = {
+					DF9D622424D4FDCF00DD7111 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					DF9D623A24D4FDD000DD7111 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = DF9D622424D4FDCF00DD7111;
+					};
+					DF9D624524D4FDD000DD7111 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = DF9D622424D4FDCF00DD7111;
+					};
+				};
+			};
+			buildConfigurationList = DF9D622024D4FDCF00DD7111 /* Build configuration list for PBXProject "MetalHeatMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF9D621C24D4FDCF00DD7111;
+			productRefGroup = DF9D622624D4FDCF00DD7111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF9D622424D4FDCF00DD7111 /* MetalHeatMap */,
+				DF9D623A24D4FDD000DD7111 /* MetalHeatMapTests */,
+				DF9D624524D4FDD000DD7111 /* MetalHeatMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF9D622324D4FDCF00DD7111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9D623524D4FDCF00DD7111 /* LaunchScreen.storyboard in Resources */,
+				DF9D623224D4FDCF00DD7111 /* Preview Assets.xcassets in Resources */,
+				DF9D622F24D4FDCF00DD7111 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9D623924D4FDD000DD7111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9D624424D4FDD000DD7111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF9D622124D4FDCF00DD7111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9D622924D4FDCF00DD7111 /* AppDelegate.swift in Sources */,
+				DF9D622B24D4FDCF00DD7111 /* SceneDelegate.swift in Sources */,
+				DF9D622D24D4FDCF00DD7111 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9D623724D4FDD000DD7111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9D624024D4FDD000DD7111 /* MetalHeatMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9D624224D4FDD000DD7111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9D624B24D4FDD000DD7111 /* MetalHeatMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF9D623D24D4FDD000DD7111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF9D622424D4FDCF00DD7111 /* MetalHeatMap */;
+			targetProxy = DF9D623C24D4FDD000DD7111 /* PBXContainerItemProxy */;
+		};
+		DF9D624824D4FDD000DD7111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF9D622424D4FDCF00DD7111 /* MetalHeatMap */;
+			targetProxy = DF9D624724D4FDD000DD7111 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF9D623324D4FDCF00DD7111 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF9D623424D4FDCF00DD7111 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF9D624D24D4FDD000DD7111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF9D624E24D4FDD000DD7111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF9D625024D4FDD000DD7111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MetalHeatMap/Preview Content\"";
+				DEVELOPMENT_TEAM = AKMMNPK382;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MetalHeatMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douglaswebster.MetalHeatMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF9D625124D4FDD000DD7111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MetalHeatMap/Preview Content\"";
+				DEVELOPMENT_TEAM = AKMMNPK382;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MetalHeatMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douglaswebster.MetalHeatMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF9D625324D4FDD000DD7111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AKMMNPK382;
+				INFOPLIST_FILE = MetalHeatMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douglaswebster.MetalHeatMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalHeatMap.app/MetalHeatMap";
+			};
+			name = Debug;
+		};
+		DF9D625424D4FDD000DD7111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AKMMNPK382;
+				INFOPLIST_FILE = MetalHeatMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douglaswebster.MetalHeatMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalHeatMap.app/MetalHeatMap";
+			};
+			name = Release;
+		};
+		DF9D625624D4FDD000DD7111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AKMMNPK382;
+				INFOPLIST_FILE = MetalHeatMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douglaswebster.MetalHeatMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetalHeatMap;
+			};
+			name = Debug;
+		};
+		DF9D625724D4FDD000DD7111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AKMMNPK382;
+				INFOPLIST_FILE = MetalHeatMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douglaswebster.MetalHeatMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetalHeatMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF9D622024D4FDCF00DD7111 /* Build configuration list for PBXProject "MetalHeatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF9D624D24D4FDD000DD7111 /* Debug */,
+				DF9D624E24D4FDD000DD7111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF9D624F24D4FDD000DD7111 /* Build configuration list for PBXNativeTarget "MetalHeatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF9D625024D4FDD000DD7111 /* Debug */,
+				DF9D625124D4FDD000DD7111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF9D625224D4FDD000DD7111 /* Build configuration list for PBXNativeTarget "MetalHeatMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF9D625324D4FDD000DD7111 /* Debug */,
+				DF9D625424D4FDD000DD7111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF9D625524D4FDD000DD7111 /* Build configuration list for PBXNativeTarget "MetalHeatMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF9D625624D4FDD000DD7111 /* Debug */,
+				DF9D625724D4FDD000DD7111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF9D621D24D4FDCF00DD7111 /* Project object */;
+}
