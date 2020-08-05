@@ -62,7 +62,7 @@ class ContentViewController: UIViewController {
     
     /**
      To interact with the GPU, you need to create a software interface for it
-     This interface if the MTLDevice protocol
+     This interface is the MTLDevice protocol
     */
     private var device: MTLDevice? = nil
     

@@ -13,6 +13,7 @@ using namespace metal;
 struct VertexOut {
     float4 pos [[ position ]];
     float4 color;
+    float size [[ point_size ]];
 };
 
 /**
@@ -27,6 +28,7 @@ vertex VertexOut vertex_shader(
     VertexOut out;
     out.pos = float4(in.pos.x, in.pos.y, 0, 1);
     out.color = in.color;
+    out.size = 10;
     return out;
 }
 
